@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando JavaScript</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+
+        h1,p {
+            text-align: center;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ola, Mundo!</h1>
+    <p>Me livrei da maldição</p>
+    <script>
+        window.alert('Minha primeira mensagem');
+        window.confirm('Esta gostando de JS?')
+
+        var n1 = Number.parseFloat(window.prompt('Qual sua idade?') )
+        var n2 = Number.parseFloat(window.prompt('Qual sua idade?') )
+        var n3 = Number(window.prompt('Qual seu numero favorito? '))
+        var s = n1 + n2 / n3
+        window.alert('a soma dos valores é ' +  String(s))
+
+    </script>
+</body>
+</html>
