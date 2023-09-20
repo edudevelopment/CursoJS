@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(60, 161, 82);
+    font: normal 15pt Arial;
+}
+
+header {
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+section {
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+footer {
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+
+
+.container > p, #res{
+    padding: 7px;
+}
+
+img {
+    border-radius: 180px;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+
+.verif {
+    width: 100px;
+    height: 35px;
+}
